@@ -1,7 +1,7 @@
 'use strict';
 
 var RBush = require('rbush');
-var Queue = require('tinyqueue');
+var Queue = require('tinyqueue').default;
 var pointInPolygon = require('point-in-polygon');
 const orient = require('robust-predicates/umd/orient2d.min.js').orient2d;
 
